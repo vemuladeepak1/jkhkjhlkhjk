@@ -1,0 +1,73 @@
+#sec5 {
+    color: white;
+    font-size: 15px;
+}
+#sec5 .foot {
+    padding: 50px 0 25px 0;
+    background: #222845;
+}
+#sec5 .foot .foot_add {
+    margin-bottom: 25px;
+}
+#sec5 .foot .foot_add h3 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    font-weight: 600;
+}
+#sec5 .foot .foot_add p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    
+}
+#sec5 .foot h4 {
+    font-size: 18px;
+    font-weight: 600;
+   
+    position: relative;
+    padding-bottom: 10px;
+}
+#sec5 .foot .foot_icon {
+    margin-bottom: 20px;
+}
+#sec5 .foot .foot_icon ul {
+    padding: 0;
+    margin: 0;
+    color: white !important;
+}  
+#sec5 .foot .foot_icon ul i {
+    padding-right: 10px;
+    color: white !important;
+    font-size: 16px;
+}
+#sec5 .foot .foot_icon ul li {
+    padding: 10px 0;
+    display: flex;
+}
+#sec5 .foot .foot_icon ul a {
+  color: white;
+    line-height: 1;
+}  
+#sec5 .foot .foot_icon ul a:hover {
+    color: #5471f5;
+    text-decoration: none;
+}
+#sec5 .foot_web a {
+    font-size: 20px;
+    display: inline-block;
+    line-height: 1;
+    padding: 10px 0;
+    margin-right: 6px;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    color: white;
+} 
+#sec5 .foot_web a:hover {
+    background: #5471f5;
+}
+@media screen and (min-width:0px) and (max-width: 768px){
+    #sec5 .crt {
+        text-align: center;
+    }
+}
