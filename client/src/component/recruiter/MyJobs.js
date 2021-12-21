@@ -79,6 +79,7 @@ const JobTile = (props) => {
   };
 
   const handleClick = (location) => {
+    console.log(location)
     history.push(location);
   };
 

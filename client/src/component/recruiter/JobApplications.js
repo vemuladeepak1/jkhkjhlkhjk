@@ -566,10 +566,10 @@ console.log(props)
   return (
     <Paper className={classes.jobTileOuter} elevation={3}>
       <Grid container>
-      <Avatar
+      {/* <Avatar
             src={application.jobApplicant.profile}
             className={classes.avatar}
-          />
+          /> */}
         <Grid
           item
           xs={2}
@@ -589,17 +589,17 @@ console.log(props)
             </Typography>
           </Grid>
           <Grid item>
-            <Rating
+            {/* <Rating
               value={
                 application.jobApplicant.rating !== -1
                   ? application.jobApplicant.rating
                   : null
               }
               readOnly
-            />
+            /> */}
           </Grid>
           <Grid item>Applied On: {appliedOn.toLocaleDateString()}</Grid>
-          <Grid item>
+          {/* <Grid item>
             Education:{" "}
             {application.jobApplicant.education
               .map((edu) => {
@@ -608,7 +608,7 @@ console.log(props)
                 })`;
               })
               .join(", ")}
-          </Grid>
+          </Grid> */}
           <Grid item>
             SOP: {application.sop !== "" ? application.sop : "Not Submitted"}
           </Grid>
