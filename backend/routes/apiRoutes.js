@@ -1356,7 +1356,7 @@ router.get("/rating", jwtAuth, (req, res) => {
 // mobile otp sending
 
 router.get('/sendotp', (req,res) => {
-  // console.log( `+${req.query.phonenumber}`)
+  console.log(req.query.phonenumber)
   if (req.query.phonenumber) {
      client
      .verify
@@ -1418,7 +1418,9 @@ router.get('/verifyotp', (req, res) => {
  
 })
 
-
+router.get('/admin',(req,res)=>{
+  JobApplicant.find({}).then((data)=>res.json(data))
+})
 
 // Application.findOne({
 //   _id: id,

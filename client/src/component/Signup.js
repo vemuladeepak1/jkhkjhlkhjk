@@ -379,6 +379,7 @@ const [verify,setVerify] = useState(true)
 
         }).then(res => res.json())
         .then(data => {
+          console.log(data)
             if (data.error) {
                 console.log(data.message)
 
